@@ -13,18 +13,38 @@
 
 
    // Callstack
+   // function one() {
+   //  console.log("One");
+
+   // }
+
+   // function two() {
+   //  console.log("Two");
+   // }
+
+   // function three() {
+   //  console.log("three");
+   // }
+
+   // one()
+   // two()
+   // three()
+
+
    function one() {
-    console.log("One");
-   }
-
-   function two() {
-    console.log("Two");
-   }
-
-   function three() {
-    console.log("three");
-   }
-
-   one()
-   two()
-   three()
+      console.log("One");
+      two()
+     }
+  
+     function two() {
+      console.log("Two");
+      three()
+     }
+  
+     function three() {
+      console.log("three");
+     }
+  
+     one()
+     two()
+     three()
