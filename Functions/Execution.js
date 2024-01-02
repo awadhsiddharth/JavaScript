@@ -10,3 +10,21 @@
    // 1.Memory creation phase(1)- memory allocation
    // 2.Exection Phase - runs business logic
    */
+
+
+   // Callstack
+   function one() {
+    console.log("One");
+   }
+
+   function two() {
+    console.log("Two");
+   }
+
+   function three() {
+    console.log("three");
+   }
+
+   one()
+   two()
+   three()
