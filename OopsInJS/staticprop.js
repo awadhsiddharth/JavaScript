@@ -11,7 +11,8 @@ class User{
     //     return Math.floor(Math.random()* 10 + 1)
     // }
 
-    // static keyword wont allow to get others access
+    // static keyword wont allow to get others access of the given function
+
     static createId(){
         return Math.floor(Math.random()* 10 + 1)
     }
