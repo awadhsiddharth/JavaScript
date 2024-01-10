@@ -1,0 +1,60 @@
+/* Closure 
+
+A closure is the combination of a function 
+bundled together (enclosed) with references
+to its surrounding state (the lexical environment).
+In other words, a closure gives you access to
+an outer function's scope from an inner
+function. In JavaScript, closures are created
+every time a function is created, at function
+creation time.
+
+*/
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+
+<body style="background-color: #313131;">
+    <script>
+
+        // Lexical Scoping
+        // Consider the following example code:
+
+        // function init() {
+        //     let name = "Mozilla"; 
+        //     function displayName() {
+        //         console.log(name);
+        //     }
+        //     displayName();
+        // }
+        // init();
+
+      
+        function outer(){
+            let userName = "rahul"
+            console.log(secret);
+
+            function inner(){
+                let secret = "my123"
+                console.log("INNER FUNCTION",userName);
+            }
+            function InnerTwo(){
+                console.log("INNER FUNCTION TWO", userName);
+                console.log(secret);
+            }
+            inner()
+            InnerTwo()
+    
+        }
+        outer()
+        console.log("OUTER FUNCTION",userName);
+
+    </script>
+</body>
+
+</html>
