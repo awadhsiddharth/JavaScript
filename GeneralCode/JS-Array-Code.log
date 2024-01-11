@@ -1,0 +1,304 @@
+var arr=[10,20,30,40,50,];
+undefined
+typeof arr;
+'object'
+arr instanceof Array;
+true
+typeof Array;
+'function'
+arr.push(10);
+6
+arr;
+(6) [10, 20, 30, 40, 50, 10]
+arr.pop();
+10
+arr;
+(5) [10, 20, 30, 40, 50]
+arr.push(1000);
+6
+arr;
+(6) [10, 20, 30, 40, 50, 1000]
+arr.pop();
+1000
+arr.shift();
+10
+arr;
+(4) [20, 30, 40, 50]
+arr.unshift(10);
+5
+arr;
+(5) [10, 20, 30, 40, 50]
+arr.splice(1);
+(4) [20, 30, 40, 50]
+arr;
+[10]
+arr=[10,20,30,40,50];
+(5) [10, 20, 30, 40, 50]
+arr.splice(1,1);
+[20]
+arr;
+(4) [10, 30, 40, 50]
+arr.splice(1,2);
+(2) [30, 40]
+arr;
+(2) [10, 50]
+arr=[10,20,30,40,50];
+(5) [10, 20, 30, 40, 50]
+arr.splice(1,0,90);
+[]
+arr;
+(6) [10, 90, 20, 30, 40, 50]
+arr.splice(1,0,100,200,300,400);
+[]
+arr;
+(10) [10, 100, 200, 300, 400, 90, 20, 30, 40, 50]
+arr.splice(8,0,100,200,300,400);
+[]
+arr;
+(14) [10, 100, 200, 300, 400, 90, 20, 30, 100, 200, 300, 400, 40, 50]
+arr.splice(8,4);
+(4) [100, 200, 300, 400]
+arr;
+(10) [10, 100, 200, 300, 400, 90, 20, 30, 40, 50]
+arr.splice(1,2,888,777);
+(2) [100, 200]
+arr;
+(10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i]);
+}
+    
+VM1255:2 10
+VM1255:2 888
+VM1255:2 777
+VM1255:2 300
+VM1255:2 400
+VM1255:2 90
+VM1255:2 20
+VM1255:2 30
+VM1255:2 40
+VM1255:2 50
+undefined
+for( let i of arr){
+    console.log(i);
+}
+VM1446:2 10
+VM1446:2 888
+VM1446:2 777
+VM1446:2 300
+VM1446:2 400
+VM1446:2 90
+VM1446:2 20
+VM1446:2 30
+VM1446:2 40
+VM1446:2 50
+undefined
+arr.forEach
+ƒ forEach() { [native code] }
+arr.forEach(e=>console.log(e));
+VM1592:1 10
+VM1592:1 888
+VM1592:1 777
+VM1592:1 300
+VM1592:1 400
+VM1592:1 90
+VM1592:1 20
+VM1592:1 30
+VM1592:1 40
+VM1592:1 50
+undefined
+arr.forEach((e,i)=console.log(e,i));
+VM1708:1 Uncaught SyntaxError: Invalid left-hand side in assignment
+arr.forEach((e,i)=>console.log(e,i));
+VM1713:1 10 0
+VM1713:1 888 1
+VM1713:1 777 2
+VM1713:1 300 3
+VM1713:1 400 4
+VM1713:1 90 5
+VM1713:1 20 6
+VM1713:1 30 7
+VM1713:1 40 8
+VM1713:1 50 9
+undefined
+arr.forEach((e,i,a)=>console.log(e,i,a));
+VM1748:1 10 0 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+VM1748:1 888 1 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+VM1748:1 777 2 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+VM1748:1 300 3 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+VM1748:1 400 4 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+VM1748:1 90 5 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+VM1748:1 20 6 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+VM1748:1 30 7 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+VM1748:1 40 8 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+VM1748:1 50 9 (10) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50]
+undefined
+arr.find(e=>e==50);
+50
+arr.find(e=>e==50000);
+undefined
+arr.findIndex(e=>e==50);
+9
+arr.findIndex(e=>e==10);
+0
+arr.push(10);
+11
+arr;
+(11) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50, 10]
+arr.findLastIndex(e=>e==10);
+10
+arr.filter(e=>e==10);
+(2) [10, 10]
+arr.push(10);
+12
+arr.push(10);
+13
+arr.filter(e=>e==10);
+(4) [10, 10, 10, 10]
+arr;
+(13) [10, 888, 777, 300, 400, 90, 20, 30, 40, 50, 10, 10, 10]
+arr.filter(e=>e==10);
+(4) [10, 10, 10, 10]
+arr.filter(e=>e==10).length;
+4
+arr.reduce((acc, e)=> {}
+VM2285:1 Uncaught SyntaxError: missing ) after argument list
+arr.reduce((acc, e)=> {},[]);
+undefined
+arr.reduce((acc, e,i)=> {
+    if(e==10){
+        const obj = {i:e};
+        acc.push(obj);
+    }
+    return acc;
+},[]);
+(4) [{…}, {…}, {…}, {…}]0: {i: 10}1: {i: 10}2: {i: 10}3: {i: 10}length: 4[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()with: ƒ with()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+arr.reduce((acc, e,i)=> {
+    if(e==10){
+        const obj = {};
+        acc.push(obj);
+    }
+    return acc;
+},[]);
+(4) [{…}, {…}, {…}, {…}]0: {}1: {}2: {}3: {}length: 4[[Prototype]]: Array(0)
+arr.reduce((acc, e,i)=> {
+    if(e==10){
+        const obj = {};
+        obj[i]=e;
+        acc.push(obj);
+    }
+    return acc;
+},[]);
+(4) [{…}, {…}, {…}, {…}]0: {0: 10}1: {10: 10}2: {11: 10}3: {12: 10}length: 4[[Prototype]]: Array(0)
+arr.sort();
+(13) [10, 10, 10, 10, 20, 30, 300, 40, 400, 50, 777, 888, 90]
+arr;
+(13) [10, 10, 10, 10, 20, 30, 300, 40, 400, 50, 777, 888, 90]
+arr.sort((a,b)=> (a-b));
+(13) [10, 10, 10, 10, 20, 30, 40, 50, 90, 300, 400, 777, 888]
+arr.sort((a,b)=> (b-a));
+(13) [888, 777, 400, 300, 90, 50, 40, 30, 20, 10, 10, 10, 10]
+var names =['ram','amit','shyam','anil'];
+undefined
+names;
+(4) ['ram', 'amit', 'shyam', 'anil']
+'ram'.localCompare('amit');
+VM2846:1 Uncaught TypeError: "ram".localCompare is not a function
+    at <anonymous>:1:7
+(anonymous) @ VM2846:1
+'ram'.localeCompare('amit');
+1
+'amit'.localeCompare('amit');
+0
+'amit'.localeCompare('ram');
+-1
+names.sort((a,b)=>a.localeCompare(b));
+(4) ['amit', 'anil', 'ram', 'shyam']
+names.sort((a,b)=>b.localeCompare(a));
+(4) ['shyam', 'ram', 'anil', 'amit']
+var emps [{id:100,name:'Amit',salary:2222},{id:10,name:'Shyam',salary:3222},{id:20,name:'Ram',salary:1222}];
+VM3227:1 Uncaught SyntaxError: Unexpected token '['
+var emps = [{id:100,name:'Amit',salary:2222},{id:10,name:'Shyam',salary:3222},{id:20,name:'Ram',salary:1222}];
+undefined
+emps.sort
+ƒ sort() { [native code] }
+emps.sort((a,b)=> a.id-b.id);
+(3) [{…}, {…}, {…}]0: {id: 10, name: 'Shyam', salary: 3222}1: {id: 20, name: 'Ram', salary: 1222}2: {id: 100, name: 'Amit', salary: 2222}length: 3[[Prototype]]: Array(0)
+emps.sort((a,b)=> a.salary-b.salary);
+(3) [{…}, {…}, {…}]0: {id: 20, name: 'Ram', salary: 1222}1: {id: 100, name: 'Amit', salary: 2222}2: {id: 10, name: 'Shyam', salary: 3222}length: 3[[Prototype]]: Array(0)
+emps.sort((a,b)=> b.salary-a.salary);
+(3) [{…}, {…}, {…}]0: {id: 10, name: 'Shyam', salary: 3222}1: {id: 100, name: 'Amit', salary: 2222}2: {id: 20, name: 'Ram', salary: 1222}length: 3[[Prototype]]: Array(0)
+emps.sort((a,b)=> a.name.localeCompare(b.name));
+(3) [{…}, {…}, {…}]0: {id: 100, name: 'Amit', salary: 2222}1: {id: 20, name: 'Ram', salary: 1222}2: {id: 10, name: 'Shyam', salary: 3222}length: 3[[Prototype]]: Array(0)
+var prices =[1000,2000,3000,4000,5000,6000];
+undefined
+var pricesWithTax=prices.map(price=>price +(price*0.18));
+undefined
+prices;
+(6) [1000, 2000, 3000, 4000, 5000, 6000]
+pricesWithTax
+(6) [1180, 2360, 3540, 4720, 5900, 7080]
+var newArray = prices.map(p=>p);
+undefined
+prices==  newA
+VM4188:1 Uncaught ReferenceError: newA is not defined
+    at <anonymous>:1:11
+(anonymous) @ VM4188:1
+prices==  newArray;
+false
+prices===  newArray;
+false
+newArray[0]=9999;
+9999
+newArray;
+(6) [9999, 2000, 3000, 4000, 5000, 6000]
+prices;
+(6) [1000, 2000, 3000, 4000, 5000, 6000]
+var e;=1000;
+VM4440:1 Uncaught SyntaxError: Unexpected token '='
+e.toLcaleString('hi');
+VM4503:1 Uncaught ReferenceError: e is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM4503:1
+var e=1000;
+undefined
+e.toLcaleString('hi');
+VM4515:1 Uncaught TypeError: e.toLcaleString is not a function
+    at <anonymous>:1:3
+(anonymous) @ VM4515:1
+e.toLocaleString('hi');
+'1,000'
+e.toLocaleString('en');
+'1,000'
+e=10000000;
+10000000
+e.toLocaleString('hi');
+'1,00,00,000'
+e.toLocaleString('en');
+'10,000,000'
+prices;
+(6) [1000, 2000, 3000, 4000, 5000, 6000]
+var prices =[1000000,2067867600,89878973000,77864000,7678685000,75786000];
+undefined
+prices.toLocaleString('hi');
+'10,00,000,2,06,78,67,600,89,87,89,73,000,7,78,64,000,7,67,86,85,000,7,57,86,000'
+prices.map(p=>p.toLocaleString('hi'));
+(6) ['10,00,000', '2,06,78,67,600', '89,87,89,73,000', '7,78,64,000', '7,67,86,85,000', '7,57,86,000']
+prices.map(p=>'Rs " +p.toLocaleString('hi'));
+VM4809:1 Uncaught SyntaxError: missing ) after argument list
+prices.map(p=>'Rs ' +p.toLocaleString('hi'));
+(6) ['Rs 10,00,000', 'Rs 2,06,78,67,600', 'Rs 89,87,89,73,000', 'Rs 7,78,64,000', 'Rs 7,67,86,85,000', 'Rs 7,57,86,000']
+var formattedPrices=prices.map(p=>'Rs ' +p.toLocaleString('hi'));
+undefined
+formattedPrices;
+(6) ['Rs 10,00,000', 'Rs 2,06,78,67,600', 'Rs 89,87,89,73,000', 'Rs 7,78,64,000', 'Rs 7,67,86,85,000', 'Rs 7,57,86,000']
+prices;
+(6) [1000000, 2067867600, 89878973000, 77864000, 7678685000, 75786000]
+prices.every(e=>e>300);
+true
+prices.every(e=>e<300);
+false
+prices.some(e=>e><00)
+VM5087:1 Uncaught SyntaxError: Unexpected token '<'
+prices.some(e=>e<200)
+false

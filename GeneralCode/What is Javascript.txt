@@ -1,0 +1,56 @@
+What is Javascript?
+
+a) HTML- Skeleton(Structure)
+b) CSS - Styling
+c) JS - Behaviour(JavaScript)
+
+
+Mosaic- World's First Web Browser. It was static in nature
+NetScape - Language developed,which is used to make page dynamic
+
+Mocha Project
+Schema - Functional Programming like C
+Self - OOPs based on prototype
+LiveScript = Schema + Self = (Concept of schema & self) +Syntax(Java)
+
+UI
+JavaScript --> ElectronJS(Desktop App)
+AngularJS(Coding) + Ionic(UI) + Cordova(Hardware Calls)
+
+Microsoft - VBScript, JScript
+ECMAScript
+ECMA 5, ECMA6, ECMA 7
+
+TypeScript(Microsoft)
+
+Chrome - V8 Engine
+
+
+Arrays In JS
+Array is an object in javascript having several methods.
+a) push()-add an element at last
+b) pop()-deletes an element form last
+c) shift()-deletes first element of an array
+d) unshift()-adds element at first position
+e) splice()-performs all operations like insertion,deletion
+	splice(a=index,b=count);
+	a)replace   arr.splice(1,2,888,777);
+	b)add	    arr.splice(8,0,100,200,300,400);
+	c)remove    arr.splice(1,1);
+f) forEach()- used for tranversal of an array
+   Syntax-arr.forEach((e,i,a)=>console.log(e,i,a));
+	e=element,i=index,a=array
+g) find()-traverse array and find element
+h) findIndex()-
+i) filter()- finds the occurence of an element
+j) reduce() -
+	arr.reduce((acc, e)=> {},[]);		
+k) sort()- sorting is done on ASCII value
+	a)Ascending sort-arr.sort((a,b)=> (a-b));
+	b)Decending sort-arr.sort((a,b)=> (b-a));
+l) localeCompare()- to check string comparison
+	a)Ascending sort- names.sort((a,b)=>a.localeCompare(b));
+	b)Decending sort- names.sort((a,b)=>b.localeCompare(a));
+
+m) map()- dont make changes in original array
+ 

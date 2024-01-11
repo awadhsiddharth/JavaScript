@@ -1,0 +1,392 @@
+var x;
+undefined
+typeof x;
+'undefined'
+int x;
+VM76:1 Uncaught SyntaxError: Unexpected identifier 'x'
+x =100;
+100
+typeof x;
+'number'
+x=100.2
+100.2
+typeof x;
+'number'
+x =100/0
+Infinity
+x=100/2;
+50
+typeof x;
+'number'
+x =100/0
+Infinity
+typeof x;
+'number'
+x="100" + 100;
+'100100'
+typeof x;
+'string'
+x=100 + "100";
+'100100'
+typeof x;
+'string'
+x=100 -"100";
+0
+x=100* "100"
+10000
+x=100/"100";
+1
+x =100/"amit"
+NaN
+typeof x;
+'number'
+x="amit"/19;
+NaN
+x = 100/u;
+VM571:1 Uncaught ReferenceError: u is not defined
+    at <anonymous>:1:9
+(anonymous) @ VM571:1
+x = 100/y;
+VM578:1 Uncaught ReferenceError: y is not defined
+    at <anonymous>:1:9
+(anonymous) @ VM578:1
+x=100/y
+VM606:1 Uncaught ReferenceError: y is not defined
+    at <anonymous>:1:7
+(anonymous) @ VM606:1
+x = 100 + true;
+101
+x = 100 + false;
+100
+x = 100 - false;
+100
+x = 100 - true;
+99
+x = 100 * true;
+100
+x = 100 * false;
+0
+x = 100 / false;
+Infinity
+x = 100 / true;
+100
+"ten"/"two"
+NaN
+var d="ten"/"two"
+undefined
+d;
+NaN
+isNan(d);
+VM844:1 Uncaught ReferenceError: isNan is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM844:1
+isNaN(d);
+true
+isNaN(d)?0:d;
+0
+var d= 100/2;
+undefined
+d;
+50
+isNaN(d)?0:d;
+50
+var d= "100";
+undefined
+typeof d;
+'string'
+parseInt(d);
+100
+y = parseInt(d);
+100
+var d= "ten";
+undefined
+y = parseInt(d);
+NaN
+var d =10.20;
+undefined
+var e = Number("10");
+undefined
+e;
+10
+var e = Number("10.203");
+undefined
+e;
+10.203
+var e = Number("one");
+undefined
+e;
+NaN
+isf
+VM1243:1 Uncaught ReferenceError: isf is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1243:1
+isFinte
+VM1261:1 Uncaught ReferenceError: isFinte is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1261:1
+e=100/0;
+Infinity
+isFinite(e);
+false
+var r ='Hello';
+undefined
+typeof r;
+'string'
+r="hello";
+'hello'
+typeof r;
+'string'
+r="Its's my life";
+"Its's my life"
+r="It's my life";
+"It's my life"
+r =' It\'s my life';
+" It's my life"
+x=true;
+true
+typeof x;
+'boolean'
+x=[10,20,30,40];
+(4) [10, 20, 30, 40]
+typeof x;
+'object'
+x instanceof Arrays;
+VM1676:1 Uncaught ReferenceError: Arrays is not defined
+    at <anonymous>:1:14
+(anonymous) @ VM1676:1
+x instanceof Array;
+true
+x instanceof HTMLCollection;
+false
+typeof Array;
+'function'
+x =[10,20];
+(2) [10, 20]
+typeof x;
+'object'
+typeof Array;
+'function'
+x instanceof Object;
+true
+typeof Object;
+'function'
+var mike = {};
+undefined
+mike instanceof Object;
+true
+typeof mike;
+'object'
+ mike;
+{}[[Prototype]]: Object
+mike instanceof Array;
+false
+var d=[];
+undefined
+typeof d;
+'object'
+d instanceod d;
+VM2387:1 Uncaught SyntaxError: Unexpected identifier 'instanceod'
+d instanceod Object;
+VM2411:1 Uncaught SyntaxError: Unexpected identifier 'instanceod'
+d instanceof Object;
+true
+d instanceof object;
+VM2425:1 Uncaught ReferenceError: object is not defined
+    at <anonymous>:1:14
+(anonymous) @ VM2425:1
+d instanceof Object;
+true
+var d = {id:101,name:'Vivek'};
+undefined
+d instanceof Object;
+true
+var d = {id:101,name:'Vivek',city:['Delhi','Noida','Gurgaon']};
+undefined
+tim;
+VM2568:1 Uncaught ReferenceError: tim is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2568:1
+d;
+{id: 101, name: 'Vivek', city: Array(3)}
+d instanceof Object;
+true
+var d=["Hello",10,'Ok',90.20,false];
+undefined
+function show(){
+    console.log("this is show"};
+VM2855:2 Uncaught SyntaxError: missing ) after argument list
+function show(){
+    console.log("this is show"};
+
+}
+VM2867:2 Uncaught SyntaxError: missing ) after argument list
+function show(){
+    console.log("this is show");
+
+}
+undefined
+typeof show;
+'function'
+show();
+VM2873:2 this is show
+undefined
+var pp=10;
+undefined
+typeof pp;
+'number'
+var tt =show;
+undefined
+typeof tt;
+'function'
+pp;
+10
+tt;
+ƒ show(){
+    console.log("this is show");
+
+}
+show;
+ƒ show(){
+    console.log("this is show");
+
+}
+show();
+VM2873:2 this is show
+undefined
+tt();
+VM2873:2 this is show
+undefined
+mike;
+{}[[Prototype]]: Object
+time;
+VM3157:1 Uncaught ReferenceError: time is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM3157:1
+tim;
+VM3161:1 Uncaught ReferenceError: tim is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM3161:1
+d;
+(5) ['Hello', 10, 'Ok', 90.2, false]
+d=null;
+null
+d;
+null
+typeof d;
+'object'
+var a=10;
+undefined
+typeof a;
+'number'
+var a;
+undefined
+typeof a;
+'number'
+var b;
+undefined
+typeof b;
+'undefined'
+b=10;
+10
+typeof b;
+'number'
+b='hi';
+'hi'
+b= null;
+null
+typeof b;
+'object'
+t=100;
+100
+var t2="100"
+undefined
+t==t2;
+true
+t===t2;
+false
+var e;
+undefined
+var ee;
+undefined
+typeof ee;
+'undefined'
+if(typeof ee=="undefined"){
+    console.log("Undefined");
+}
+VM3793:2 Undefined
+undefined
+if(typeof ee==undefined){
+    console.log("Undefined");
+}
+undefined
+ee= null;
+null
+if(typeof==null){
+    console.log("Null");
+}
+VM3930:1 Uncaught SyntaxError: Unexpected token '=='
+if(typeof ee ==null){
+    console.log("Null");
+}
+undefined
+ ee;
+null
+if(ee==null){
+    console.log("Null");
+}
+VM4045:2 Null
+undefined
+var t=10;
+undefined
+t;
+10
+if(t==10){
+    console.log("ten");
+}
+VM4186:2 ten
+undefined
+var yyy;
+undefined
+if(yyy==undefined){
+    console.log("Undefined");
+}
+VM4323:2 Undefined
+undefined
+if(typeof yyy=="undefined"){
+    console.log("Undefined");
+}
+VM4349:2 Undefined
+undefined
+var k ;
+undefined
+k;
+undefined
+if(k){
+    console.log("Truthy")
+}
+undefined
+if(k){
+    console.log("Truthy")
+}else{
+    console.log("Falsy")
+}
+VM4535:4 Falsy
+undefined
+k=10;
+10
+if(k){
+    console.log("Truthy")
+}else{
+    console.log("Falsy")
+}
+VM4559:2 Truthy
+undefined
+k=null;
+null
+if(k){
+    console.log("Truthy")
+}else{
+    console.log("Falsy")
+}
+VM4585:4 Falsy
+undefined
