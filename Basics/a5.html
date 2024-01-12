@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Arrays in js</h1>
+<h2>The forEach() method</h2>
+
+<p>forEach() calls a function for each element in an array:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+const places = ["Lodhi Colony", "Greater Kailash", "Defence Colony"];
+places.forEach(myFunction);
+
+document.getElementById("demo").innerHTML = text;
+ 
+function myFunction(item, index) {
+  text += index + ": " + item + "<br>"; 
+}
+</script>
+
+</body>
+</html>
