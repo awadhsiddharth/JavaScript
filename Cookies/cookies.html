@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+</head>
+<body>
+    <script>
+        alert(document.cookie)
+
+        console.log(document.cookie)
+        // it will not override,but will just add it to the cookie already having
+        document.cookie = "name=harry9900"
+        // in this case it will change the name to harry ie will override it
+        document.cookie = "name=harry"
+        document.cookie = "name2=harry9900"
+        console.log(document.log)
+
+    </script>
+</body>
+</html>
