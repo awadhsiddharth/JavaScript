@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Learning
+</title>
+</head>
+<body>
+<p id="demo"></p>
+<button onclick="method()">Click Here</button>
+<script>
+//const myArr = [1,6,4,7];
+//const myArr1 = ["Defence Colony","Lodhi Colony","South Extension","Nehru Place","Greater Kailash"];
+//document.write(myArr+"</br>");
+//document.write(myArr1);
+
+//let x = 513;
+//document.getElementById("demo").innerHTML = String(x)+"<br>"+String(321)+"<br>"+String(100+12);
+
+function method(){
+	
+	//alert("Mrinal ki lgne wali hai");
+	var text;
+	if(confirm("Press Button!")){
+		text = "You Pressed OK";
+	}
+	else{
+		text = "You Pressed Cancel!";
+	} 
+
+	document.getElementById("demo").innerHTML = text;
+}
+</script>
+</body>
+</html>
