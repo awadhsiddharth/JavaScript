@@ -18,7 +18,27 @@ const people = [
     }
 ];
 
-const ages = people.map((person)=>{
+const getAges = (person) => person.age * 2;
+console.log(getAges);
+
+const ages = people.map((person) => {
     console.log(person.age);
 });
 // console.log(ages);
+
+
+const newPeople = people.map((item) => {
+    return {
+        firstName: item.name.toUpperCase(),
+        oldAge: item.age + 50
+    };
+});
+
+console.log(newPeople);
+
+const name = people.map((person) => `<h1>${person.name}</h1>`);
+
+const result = document.querySelector('#result')
+
+result.innerHTML = names.join('');
+
