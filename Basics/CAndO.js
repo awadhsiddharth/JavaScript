@@ -9,6 +9,7 @@
 // "22jbj" -- 22jbj
 // true -- 1, false -- 0
 
+
 // let isLoggedIn = 1
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn)
