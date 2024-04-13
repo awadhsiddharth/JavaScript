@@ -5,7 +5,6 @@ accountCity = "Jaipur"  // dont prefer this type of variable decl
 
 let accountState
 
-
 //accountId = 2 // not allowed with const keyword
 accountEMail = "abcsd@gmail.com"
 accountPass = "12345"
