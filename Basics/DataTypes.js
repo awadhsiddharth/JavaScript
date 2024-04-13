@@ -2,6 +2,7 @@
 
 //alert(1+9)  // This is wrong syntax in Node,it can run in Browser
 
+
 console.log(3+3); 
 
 console.log("hi")
