@@ -7,7 +7,6 @@ const dcHeroes = ["superman", "flash", "batman"]
 // console.log(marvelHeroes[3]);
 // console.log(marvelHeroes[3][1]);
 
-
 // For merging 2 array, use concat or ... in array
 const allHeroes = marvelHeroes.concat(dcHeroes)
 // console.log(allHeroes)
