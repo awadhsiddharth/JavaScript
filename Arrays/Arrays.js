@@ -5,7 +5,6 @@ const myArray = [0,1,2,3,4,5,true, "Rahul"]
 const myHeroes = ["shaktiman","nagraj"]
 
 const myArr1 = new Array(0,1,33,46,66)
-
 // console.log(myArr[2]);
 
 //Arrays method
