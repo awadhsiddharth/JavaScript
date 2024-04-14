@@ -13,7 +13,6 @@ let userOne = {
     upi : "user1@ybl"
 }
 
-
 let userTwo = userOne
 
 userTwo.email = "user2@gmail.com"
