@@ -15,7 +15,6 @@ console.log(id === anotherId);
 
 const bigNumber = 5578676897987878789n
 
-
 // Non Primitive(Reference Types)
 // Array, Objects, Functions
 const heroes = ["shaktiman", "nagraj","doga"] // Array
