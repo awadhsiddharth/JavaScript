@@ -3,7 +3,6 @@
 // const score = 550;
 // console.log(score);
 
-
 // const balance = new Number(666);
 // console.log(balance);
 
