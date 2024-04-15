@@ -12,6 +12,7 @@ let name = "harry";
 let arr = Array.from(name);
 console.log(arr);
 
+
 // for .of loop
 for (let i of num) {
   console.log(i);
