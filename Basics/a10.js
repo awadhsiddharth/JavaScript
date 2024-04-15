@@ -3,7 +3,7 @@ function onePlusAvg(x, y) {
     //return Math.round(1 + (x+y)/2);
     return 1 + (x + y) / 2;
   }
-  
+
   //Arrow Function
   const sum = (p, q) => {
     return p + q;
