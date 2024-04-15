@@ -7,6 +7,7 @@ let a = arr.map((value, index, array) => {
 //console.log(arr);
 //console.log(a);
 
+
 // Array filter method
 let arr1 = [45, 23, 21, 0, 3, 5];
 let a1 = arr1.filter((value1) => {
