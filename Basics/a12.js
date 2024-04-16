@@ -9,7 +9,6 @@
 // // let friend = "Vivek";
 // // console.log(friend.length);
 
-
 // // Template literals
 // let boy1 = "Arjun";
 // let boy2 = "Nikhil";
