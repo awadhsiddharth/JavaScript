@@ -12,6 +12,7 @@
 // console.log(friend1);
 // console.log(friend1.trim());
 
+
 // let fr = "Shivika" + "Harry";
 // console.log(fr[1])
 // console.log(fr)
