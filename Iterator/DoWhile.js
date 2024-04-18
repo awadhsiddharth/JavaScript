@@ -5,6 +5,7 @@
 //     index = index+2
 // }
 
+
 // let myArray = ['flash','batman','superman']
 // let arr = 0
 // while (arr < myArray.length) {
