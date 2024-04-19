@@ -1,6 +1,5 @@
 const coding = ["js","ruby","java","python","cpp"]
 
-
 //call back function dont have name
 // coding.forEach( function (values) {
 //     console.log(items);
