@@ -43,7 +43,6 @@ if (true) {
 }
 // console.log(username);
 
-
 // *************  interesting  *********************
 console.log(addOne(6))
 function addOne(num) {
