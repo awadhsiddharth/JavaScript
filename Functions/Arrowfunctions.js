@@ -10,7 +10,6 @@ const user = {
 
 }
 
-
 // user.welcomeMessage()
 // user.username = "Simmy"
 // user.welcomeMessage()
