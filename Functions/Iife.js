@@ -1,6 +1,6 @@
 // Immediately Invoked Function Expression (IIFE) 
 
-// to avoid problem caused by scope of global variable- use iife
+// to avoid problem caused by scope of global variable-- use iife
 
 (function chai(){
     console.log(`DB-1 CONNECTED`);
