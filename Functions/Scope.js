@@ -12,7 +12,6 @@
 //     const element = array[i]
 // }
 
-
 // console.log(a);
 // // console.log(b);
 // // console.log(c);
