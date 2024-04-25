@@ -3,6 +3,7 @@ undefined
 
 typeof arr;
 'object'
+
 arr instanceof Array;
 true
 typeof Array;
