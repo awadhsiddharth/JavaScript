@@ -8,6 +8,7 @@ int x;
 VM76:1 Uncaught SyntaxError: Unexpected identifier 'x'
 x =100;
 100
+
 typeof x;
 'number'
 x=100.2
