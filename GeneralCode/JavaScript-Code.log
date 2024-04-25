@@ -3,6 +3,7 @@ undefined
 
 typeof x;
 'undefined'
+
 int x;
 VM76:1 Uncaught SyntaxError: Unexpected identifier 'x'
 x =100;
