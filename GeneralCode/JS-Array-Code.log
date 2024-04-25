@@ -9,6 +9,7 @@ typeof Array;
 'function'
 arr.push(10);
 6
+
 arr;
 (6) [10, 20, 30, 40, 50, 10]
 arr.pop();
