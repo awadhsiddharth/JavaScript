@@ -11,6 +11,7 @@ x =100;
 
 typeof x;
 'number'
+
 x=100.2
 100.2
 typeof x;
