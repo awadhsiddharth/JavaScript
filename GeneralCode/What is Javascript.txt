@@ -52,4 +52,5 @@ l) localeCompare()- to check string comparison
 	b)Decending sort- names.sort((a,b)=>b.localeCompare(a));
 
 m) map()- dont make changes in original array
+
  
