@@ -8,6 +8,7 @@ arr instanceof Array;
 true
 typeof Array;
 'function'
+
 arr.push(10);
 6
 
