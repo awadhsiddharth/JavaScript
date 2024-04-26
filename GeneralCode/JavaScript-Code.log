@@ -16,6 +16,7 @@ x=100.2
 100.2
 typeof x;
 'number'
+
 x =100/0
 Infinity
 x=100/2;
