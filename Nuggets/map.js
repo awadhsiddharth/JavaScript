@@ -1,6 +1,5 @@
 // Map Method
 // iterate over object and get age
-
 const people = [
     {
         name: 'bob',
