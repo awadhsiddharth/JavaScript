@@ -4,7 +4,6 @@ const course = {
     courseTeacher : "Sejal"
 }
 
-
 // course.courseTeacher
 // object destructring
 const {courseTeacher: instructor} = course
