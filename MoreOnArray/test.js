@@ -1,7 +1,6 @@
 // const myArray = []
 // %DebugPrint(myArray)
 
-
 // Array is of two types
 // Continous, Holey
 
