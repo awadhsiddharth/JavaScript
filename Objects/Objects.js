@@ -1,7 +1,6 @@
 // singleton
 // Object.create
 
-
 // Object literals
 const mySyn = Symbol("key1")
 // object declaration 
