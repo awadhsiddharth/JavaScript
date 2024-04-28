@@ -4,6 +4,7 @@ class User {
         this.password = password
     }
 
+    
     get email(){
         return this._email.toLowerCase()
     }
