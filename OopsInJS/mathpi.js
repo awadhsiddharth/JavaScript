@@ -2,7 +2,6 @@
 // Can we change the value of pi to either or 4
 // if we cant change, why we cant change the value of Math.PI
 
-
 // console.log(Math.PI);
 // Math.PI = 4
 // console.log(Math.PI);
