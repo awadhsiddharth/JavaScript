@@ -3,6 +3,7 @@ function multiplyBy5(num){
     return num*5;
 }
 
+
 // Function is a object in js
 multiplyBy5.power = 2
 
