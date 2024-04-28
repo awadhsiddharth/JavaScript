@@ -1,4 +1,4 @@
-// ES6
+// ES6(EcmaScript-6)
 
 // class User {
 //     constructor(username, email, password){
