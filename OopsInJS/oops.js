@@ -12,7 +12,6 @@ const user = {
     }
 }
 
-
 // console.log(user.loginCount);
 // console.log(user.signedIn);
 // console.log(user.userName);
