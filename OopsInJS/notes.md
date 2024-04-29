@@ -8,6 +8,7 @@
 
 ## Why use OOPs in js
 
+
 ## Parts of OOPs
 - Object literal
 - Constructor function
