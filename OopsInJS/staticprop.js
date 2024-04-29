@@ -7,6 +7,7 @@ class User{
         console.log(`Username : ${this.username}`);
     }
 
+    
     // createId(){
     //     return Math.floor(Math.random()* 10 + 1)
     // }
