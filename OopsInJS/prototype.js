@@ -4,6 +4,7 @@
 // console.log(myName.trueLength);
 // console.log(myName.trim().length);
 
+
 let myHeroes = ["Thor","Spiderman"]
 
 let heroPower = {
