@@ -1,4 +1,4 @@
-function user(email, password){
+function user(email, password) {
     this._email = email
     this._password = password
 
