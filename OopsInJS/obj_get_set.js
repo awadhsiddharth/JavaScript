@@ -2,7 +2,6 @@ const User = {
     _email : 'eshita.sharma@idp.com',
     _password : 'abc@123',
 
-
     get email(){
         return this._email
     },
