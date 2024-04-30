@@ -3,7 +3,6 @@
 ## project link
 [Click here] (https://stackblitz.com/edit/dom-projects-chaiaurcode?file=index.html)
 
-
 # Solution code
 
 
