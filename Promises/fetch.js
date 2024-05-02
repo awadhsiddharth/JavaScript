@@ -1,4 +1,4 @@
-// The Fetch API provides a JavaScript
+// The Fetch API provides a JavaScript 
 // interface for accessing and manipulating
 // parts of the protocol, such as requests
 // and responses. It also provides a global
