@@ -1,5 +1,5 @@
 // fetch('https://google.com').then().catch().finally()
-// promise is an object noting eventual completion and and an instance can be created by new keyword
+// promise is an object noting eventual completion and and an instance can be created by new keyword 
 
 // Promise creation
 // const promiseOne = new Promise(function (resolve, reject){
