@@ -1,5 +1,6 @@
 import { fullName as fn} from "./model.js";
 
+
 window.addEventListener('load',bind);
 export function bind(){
     let button = document.getElementById('greetbt');
