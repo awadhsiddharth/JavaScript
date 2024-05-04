@@ -1,5 +1,5 @@
 # JavaScript
-A code repo for javascript
+A code repo for JavaScript(JS)
 
 ## Format code in VS CODE
 Window - Shift + Alt + F 
