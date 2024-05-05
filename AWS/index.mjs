@@ -1,4 +1,5 @@
 export const handler = async (event, context) => {
+
   
     const length = event.length;
     const width = event.width;
