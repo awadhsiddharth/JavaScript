@@ -1,5 +1,5 @@
 // Primitive Types
-// 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+// 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt 
 
 // const score = 100
 // const scoreVlue = 100.3
