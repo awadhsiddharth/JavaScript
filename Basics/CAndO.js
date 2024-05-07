@@ -5,7 +5,7 @@
 //let score = true
 //let score = "hi"
 
-// "22" -- 22
+// "22" -- 22 
 // "22jbj" -- 22jbj
 // true -- 1, false -- 0
 
