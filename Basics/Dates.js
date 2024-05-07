@@ -4,7 +4,7 @@
 // console.log(date.toDateString());
 // console.log(date.toISOString());
 // console.log(date.toLocaleDateString());
-
+ 
 // console.log(typeof date);
 
 // let myCreatedDate = new Date(2023,11,29);
