@@ -1,5 +1,5 @@
 // Stack(Primitive), Heap Memory(NP)
-
+ 
 let myYoutubeName = "Coder"
 
 let anotherName = myYoutubeName
