@@ -1,5 +1,5 @@
 "use strict"; // This lines ensures that all code is treated in accordance to new version of JS
-
+ 
 //alert(1+9)  // This is wrong syntax in Node,it can run in Browser
 
 console.log(3+3); 
