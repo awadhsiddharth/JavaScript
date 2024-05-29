@@ -2,7 +2,7 @@ const accountId = 144553  // cant be changed
 let accountEMail = "abc@gmail.com"   //
 var accountPass = "12455"
 accountCity = "Jaipur"  // dont prefer this type of variable decl
- 
+  
 let accountState
 
 //accountId = 2 // not allowed with const keyword
