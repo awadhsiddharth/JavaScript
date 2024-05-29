@@ -12,7 +12,7 @@
 // console.log(marks_class_12);
 // console.log(typeof marks_class_12);
 
-
+ 
 // //Array methods
 // let num = [1, 2, 3, 34, 4];
 // let b = num.toString(); // b is now a string
