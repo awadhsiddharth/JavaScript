@@ -1,4 +1,4 @@
-console.log("hi");
+console.log("hi"); 
 let a = 67; 
 //avoid using var to declare avriable
 var b = "Vivek";
