@@ -1,5 +1,5 @@
 console.log("Difference among var , let and const")
-var a =  56;
+var a =  56; 
 var v = "Vivek";
 var c = null;
 var d = undefined;
