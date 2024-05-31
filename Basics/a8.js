@@ -1,5 +1,5 @@
 // 7 Primitive and 1 Non-Primitive data types
-// Primitive == nn bb ss u
+// Primitive == nn bb ss u 
 let a = null;
 let b = 222;
 let c = true;
