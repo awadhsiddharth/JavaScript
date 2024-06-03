@@ -3,7 +3,7 @@ What is Javascript?
 a) HTML- Skeleton(Structure)
 b) CSS - Styling
 c) JS - Behaviour(JavaScript)
-
+ 
 Mosaic- World's First Web Browser. It was static in nature
 NetScape - Language developed,which is used to make page dynamic
 
