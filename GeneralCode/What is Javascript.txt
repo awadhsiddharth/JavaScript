@@ -1,5 +1,5 @@
 What is Javascript?
-
+ 
 a) HTML- Skeleton(Structure)
 b) CSS - Styling
 c) JS - Behaviour(JavaScript)
