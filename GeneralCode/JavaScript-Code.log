@@ -1,6 +1,6 @@
 var x;
 undefined
- 
+  
 typeof x;
 'undefined'
 
